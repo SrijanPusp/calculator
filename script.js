@@ -6,9 +6,17 @@ Array.from(buttons).forEach((button)=>{
       string = eval(string);
       document.querySelector('input').value = string;
     }
-    else if(e.target.innerHTML == 'CE'){
+    else if(e.target.innerHTML == 'C'){
       string = ""
       document.querySelector('input').value = string;
+    }
+    else if(e.target.innerHTML == "DEL"){
+      string = string.slice(0, -1);
+      document.querySelector('input').value = string;
+    }
+    else if(e.target.innerHTML == "♦"){
+    string = "Even I wonder what this button does!"
+    document.querySelector('input').value = string;
     }
     else{ 
     console.log(e.target)
