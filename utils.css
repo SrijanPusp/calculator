@@ -1,0 +1,42 @@
+body {
+  color: aquamarine;
+  background-color: rgb(130, 127, 127);
+}
+/* for welcom bro in centre */
+.head{
+  text-align: center;
+}
+/* for calc to be at centre */
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;    
+  height: 100vh;   
+}
+.calculator{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgb(57, 47, 87);
+  border-radius: 20px;
+}
+.button{
+  background-color: rgb(207, 191, 255);
+  padding: 15px;
+  height: 5vh;
+  width: 5vh;
+  margin-bottom: 5px;
+  margin-left: 3px;
+  border-radius: 5px;
+}
+.row{
+  padding:2px;
+}
+.input{
+  border-radius: 5px;
+  width: 145px;
+  height: 40px;
+  margin-bottom: 20px;
+}
